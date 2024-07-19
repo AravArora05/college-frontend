@@ -16,11 +16,12 @@ import FAQPage from "@/pages/FAQPage";
 import NavItem from "@/components/NavItem";
 import Header from "@/components/Header";
 import DropdownButton from "@/components/DroopdownButton";
+import SearchCollegesPage from "@/pages/SearchCollegesPage";
 
 
 export default function Home() {
   return (
-      <AboutUs/>
+      <SearchCollegesPage/>
 
   );
 }
